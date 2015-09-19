@@ -25,8 +25,6 @@
 # $(__ext_vundle_comma) [PRIVATE]
 # Contains a comma (,) character.
 
-ifndef ext_vundle
-
 # Include helpdoc.mk library, if available
 -include helpdoc.mk
 
@@ -43,4 +41,3 @@ endef
 
 # "ext_vundle" function definition
 ext_vundle = $(eval $(call __ext_vundle_template,$(1)))$(1).vim/bundle/Vundle.vim/README.md
-endif
