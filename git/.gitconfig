@@ -1,0 +1,17 @@
+[core]
+	autocrlf = input
+	editor = vim
+	safecrlf = true
+	excludesfile = ~/.gitignore_global
+[color]
+	branch = auto
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[merge]
+	tool = vimdiff
+[mergetool]
+	prompt = false
+[push]
+	default = simple
