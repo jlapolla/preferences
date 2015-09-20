@@ -33,7 +33,7 @@ __ext_vundle_install_comma := ,
 
 # Rule template for new Vundle installation target
 define __ext_vundle_install_template
-$(call helpdoc,$(1).vim/bundle/Vundle.vim/README.md,Install Vundle under "$(1).vim" prefix. Vundile is a Vim plugin manager. README.md is used to detect if Vundle is already installed.)
+$(call helpdoc,$(1).vim/bundle/Vundle.vim/README.md,Install Vundle under "$(1).vim" prefix. Vundle is a Vim plugin manager. README.md is used to detect if Vundle is already installed.)
 $(1).vim/bundle/Vundle.vim/README.md:
 	mkdir -p $(1).vim/bundle
 	git clone --depth 1 'https://github.com/VundleVim/Vundle.vim.git' $(1).vim/bundle/Vundle.vim
