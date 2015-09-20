@@ -9,3 +9,6 @@ $(call helpdoc,$(d)git/.gitconfig,Global Git configuration file. Copy this file 
 exports := $(exports) $(d)git/.gitconfig
 $(call helpdoc,$(d)git/.gitignore_global,Global .gitignore file. Copy this file to your home directory.)
 exports := $(exports) $(d)git/.gitignore_global
+
+$(call helpdoc,$(d)vim/.vimrc,Vim configuration file. Copy this file to your home directory.)
+exports := $(exports) $(d)vim/.vimrc
