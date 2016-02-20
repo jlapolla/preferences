@@ -17,10 +17,14 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'jelera/vim-javascript-syntax'
 Plugin 'pangloss/vim-javascript'
 Plugin 'Raimondi/delimitMate'
+Plugin 'Konfekt/FastFold'
 " End Vundle plugin list.
 call vundle#end()
 filetype plugin indent on
 " End Vundle plugin manager.
+
+" Remap zuz command from Konfekt/FastFold
+nmap zuz :set<Space>foldmethod=syntax<CR><Plug>(FastFoldUpdate)
 
 " Color settings.
 set t_Co=256
